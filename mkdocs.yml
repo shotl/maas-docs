@@ -1,0 +1,56 @@
+site_name: Shotl MAAS (Beta)
+site_dir: site
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: default
+    primary: grey
+    accent: orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/logo.png
+  icon:
+    logo: images/logo
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - bash
+    - json
+  features:
+    - navigation.instant
+
+extra_css:
+  - assets/css/admonitions.css
+
+markdown_extensions:
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - API Reference: getting-started/api-reference.md
+      - Authentication:  getting-started/authentication.md
+      - Errors: getting-started/errors.md 
+      - Versioning: getting-started/versioning.md
+  - Service availability: service-availability.md
+  - Users: users.md
+  - Rides:
+    - Introduction: rides/introduction.md
+    - Status and transitions: rides/status-and-transitions.md
+    - Creating a ride: rides/creating-ride.md
+    - Getting info of a ride: rides/info.md
+    - Payments: rides/payments.md
+    - History: rides/history.md
+  - Webhooks:
+    - About: webhooks/about.md
+    - Configuration: webhooks/creating.md
+    - Security: webhooks/security.md
+    - Types: webhooks/types.md
+  - Changelog: changelog.md

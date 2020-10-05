@@ -1,0 +1,17 @@
+:root {
+    --md-admonition-icon--api: url('/assets/images/server.svg')
+}
+.md-typeset .admonition.api,
+.md-typeset details.api {
+    border-color: rgb(43, 155, 70);
+}
+.md-typeset .api > .admonition-title,
+.md-typeset .api > summary {
+    background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .api > .admonition-title::before,
+.md-typeset .api > summary::before {
+    background-color: rgb(43, 155, 70);
+    -webkit-mask-image: var(--md-admonition-icon--api);
+    mask-image: var(--md-admonition-icon--api);
+}
