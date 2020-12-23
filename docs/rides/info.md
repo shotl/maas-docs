@@ -19,7 +19,7 @@ It's recommended to check it periodically. On the other hand, it can be null if 
 !!! api "Related endpoint"
     [GET /v1/rides/{id}/vehicle-location](https://app.swaggerhub.com/apis/Shotl-transportation/maas/1.0.0#/Ride/getRideVehicleLocation)
     
-Location is being reported by the vehicle once the ride's status is [DRIVER_LAUNCHED](status-and-transitions.md). 
+Location is being reported by the vehicle once the ride's status is [DRIVER_LAUNCHED or ONBOARD](status-and-transitions.md). 
 Any other status will result as a null as response.
 
 ## Predicted times

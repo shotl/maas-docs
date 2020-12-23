@@ -10,5 +10,5 @@ The availability of a service is being determined by different factors:
 - Number of passengers
 
 The first one, service availability, can be checked through our specific endpoint, 
-as it's explained [here](service-availability.md). Once you know that Shotl brings service to the given area, you will be able to start the process of a
+as it's explained [here](../service-availability.md). Once you know that Shotl brings service to the given area, you will be able to start the process of a
 ride schedule.
