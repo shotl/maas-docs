@@ -13,11 +13,18 @@ Attributes
 For some errors that could be handled programmatically, a short string indicating the error code reported.
 -------------
 **tag** string <br>
-The type of error returned.
+The type of error returned. One of <code>server-error</code>, <code>invalid-request-error</code> or <code>domain-error</code>
 -------------
 **message** string <br>
 A human-readable message providing more details about the error.
 -------------
+Error Types
+-------------
+| Type      | Description                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| server-error       | Server errors cover any other type of problem (e.g., a temporary problem with Shotl's servers), and are extremely uncommon.                                             |
+| invalid-request-error   | Invalid request errors arise when your request has invalid parameters.
+| domain-error | Domain errors cover any type of problem that collides with established business rules (e.g. requesting ride which desired pickup time is out of service hours)
 
 Error Codes
 -------------
