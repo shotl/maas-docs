@@ -44,10 +44,12 @@ nav:
   - Getting started:
       - API Reference: getting-started/api-reference.md
       - Authentication:  getting-started/authentication.md
-      - Errors: getting-started/errors.md 
+      - Errors: getting-started/errors.md
       - Versioning: getting-started/versioning.md
   - Service availability: service-availability.md
-  - Users: users.md
+  - Users:
+      - Find users: users/find_users.md
+      - Create users: users/create_users.md
   - Rides:
     - Introduction: rides/introduction.md
     - Status and transitions: rides/status-and-transitions.md
@@ -60,4 +62,9 @@ nav:
     - Configuration: webhooks/creating.md
     - Security: webhooks/security.md
     - Types: webhooks/types.md
+  - Areas: areas.md
+  - Legal docs: legal-docs.md
+  - Stops: stops.md
+  - Vehicles: vehicles.md
+  - Various routes: various-routes/routes-var.md
   - Changelog: changelog.md

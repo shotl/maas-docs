@@ -4,9 +4,9 @@ in our API specification.
 ## Creating / Updating webhooks
 
 !!! api "Related endpoint"
-    [PATCH /v1/webhooks](https://app.swaggerhub.com/apis/Shotl-transportation/maas/1.0.0#/System/patchWebHooks)
+    [PATCH /v1/webhooks](https://app.swaggerhub.com/apis-docs/Shotl-transportation/maas/1.0.0-draft#/System/patchWebHooks)
 
 ## Getting them
 
 !!! api "Related endpoint"
-    [GET /v1/webhooks](https://app.swaggerhub.com/apis/Shotl-transportation/maas/1.0.0#/System/getWebHooks)
+    [GET /v1/webhooks](https://app.swaggerhub.com/apis-docs/Shotl-transportation/maas/1.0.0-draft#/System/getWebHooks)

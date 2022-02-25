@@ -1,5 +1,5 @@
 !!! api "Related endpoint"
-    [GET /v1/rides](https://app.swaggerhub.com/apis/Shotl-transportation/maas/1.0.0#/Ride/getRides)
+    [GET /v1/rides](https://app.swaggerhub.com/apis-docs/Shotl-transportation/maas/1.0.0-draft#/Ride/getRides)
     
 All rides are accessible after they are created. You can show to the users all their history and filter
 them by its status.
