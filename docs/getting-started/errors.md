@@ -69,6 +69,21 @@ Some 4xx errors that could be handled programmatically include an error code tha
 <span class="check-circle-fill">:octicons-check-circle-fill-12:</span> <code>confirmation-time-exceeded</code>
 :   The maximum time that has been configured to expire an unconfirmed service has been exceeded. Please request the service again.
 -------------
+<span class="check-circle-fill">:octicons-check-circle-fill-12:</span> <code>invalid-query-params</code>
+:   Parameters sent in query are incorrectly formatted or are invalid.
+-------------
+<span class="check-circle-fill">:octicons-check-circle-fill-12:</span> <code>desired-ride-out-of-hours</code>
+:   The ride is outside of the available hours range.
+-------------
+<span class="check-circle-fill">:octicons-check-circle-fill-12:</span> <code>no-online-vehicles-available</code>
+:   There are no online available drivers to process the request.
+-------------
+<span class="check-circle-fill">:octicons-check-circle-fill-12:</span> <code>invalid-token</code>
+:   Invalid authorization token.
+-------------
+<span class="check-circle-fill">:octicons-check-circle-fill-12:</span> <code>invalid-geo-point</code>
+:   Invalid latitude and/or longitude.
+-------------
 
 !!! tip "Working on"
     We are working to improve this section in order to inform you about the different codes included in our responses 
