@@ -1,5 +1,8 @@
-The Shotl MAAS API is organized around REST. The API has predictable resource-oriented URLs, accepts 
-JSON-encoded for requests and responses, and uses standard HTTP response status codes, authentication, and verbs.
+## Overview
+
+The Shotl MAAS API is a collection of REST points that allow apps to access the mobility platform's features. 
+The API has predictable resource-oriented URLs, accepts JSON-encoded objects for requests and responses, and uses 
+standard HTTP response status codes, authentication, and verbs.
 
 ## Environments
 You can use this API in sandbox mode, which does not affect live data or interact with real world. 

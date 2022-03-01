@@ -17,6 +17,6 @@ To reduce its complexity, you can call our token endpoint before starting each n
 memory trough all the use case.
 
 !!! api "Related endpoint"
-    [POST /v1/token](https://app.swaggerhub.com/apis/Shotl-transportation/maas/1.0.0#/Authentication/generateToken)
+    [POST /v1/token](https://app.swaggerhub.com/apis-docs/Shotl-transportation/maas/1.0.0-draft#/Authentication/generateToken)
 
 

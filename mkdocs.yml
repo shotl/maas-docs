@@ -42,22 +42,27 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-      - API Reference: getting-started/api-reference.md
-      - Authentication:  getting-started/authentication.md
-      - Errors: getting-started/errors.md 
-      - Versioning: getting-started/versioning.md
-  - Service availability: service-availability.md
-  - Users: users.md
-  - Rides:
-    - Introduction: rides/introduction.md
-    - Status and transitions: rides/status-and-transitions.md
-    - Creating a ride: rides/creating-ride.md
-    - Getting info of a ride: rides/info.md
-    - Payments: rides/payments.md
-    - History: rides/history.md
-  - Webhooks:
-    - About: webhooks/about.md
-    - Configuration: webhooks/creating.md
-    - Security: webhooks/security.md
-    - Types: webhooks/types.md
+    - API Reference: getting-started/api-reference.md
+    - Authentication:  getting-started/authentication.md
+    - Errors: getting-started/errors.md
+    - Versioning: getting-started/versioning.md
+  - Guides:
+    - Service availability: guides/service-availability.md
+    - Users: guides/users.md
+    - Areas: guides/areas.md
+    - Stops: guides/stops.md
+    - Vehicles: guides/vehicles.md
+    - Rides:
+      - Introduction: guides/rides/introduction.md
+      - Status and transitions: guides/rides/status-and-transitions.md
+      - Creating a ride: guides/rides/creating-ride.md
+      - Getting info of a ride: guides/rides/info.md
+      - Payments: guides/rides/payments.md
+      - History: guides/rides/history.md
+    - Legal docs: guides/legal-docs.md
+    - Webhooks:
+      - About: guides/webhooks/about.md
+      - Configuration: guides/webhooks/creating.md
+      - Security: guides/webhooks/security.md
+      - Types: guides/webhooks/types.md
   - Changelog: changelog.md
